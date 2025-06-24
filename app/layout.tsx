@@ -13,15 +13,15 @@ export const metadata = {
   description: "Educação gratuita em tecnologia e áreas STEM para meninas e mulheres",
   icons: {
     icon: [
-      { url: "/logo.png", sizes: "32x32", type: "image/png" },
-      { url: "/logo.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "16x16", type: "image/png" },
     ],
-    shortcut: "/logo.png",
-    apple: [{ url: "/logo.png", sizes: "180x180", type: "image/png" }],
+    shortcut: "/favicon.png",
+    apple: [{ url: "/favicon.png", sizes: "180x180", type: "image/png" }],
     other: [
       {
         rel: "icon",
-        url: "/logo.png",
+        url: "/favicon.png",
       },
     ],
   },
