@@ -77,7 +77,7 @@ export default function Community() {
                     com outras mulheres em STEM.
                   </p>
 
-                  <div className="mt-auto">
+                  <div className="">
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex -space-x-2">
                         <div className="w-8 h-8 rounded-full border-2 border-[#5865F2] overflow-hidden">
@@ -110,14 +110,6 @@ export default function Community() {
                       </div>
                       <span className="text-white/90 text-sm">+500 membros</span>
                     </div>
-
-                    <Button
-                      className="w-full bg-white hover:bg-white/90 text-[#5865F2] group-hover:shadow-lg transition-all duration-300"
-                      onClick={() => window.open("https://discord.gg/ECtMgzF4", "_blank")}
-                    >
-                      <span>Entrar no Discord</span>
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </Button>
                   </div>
                 </div>
               </motion.div>
@@ -139,7 +131,7 @@ export default function Community() {
                   <h3 className="text-2xl font-bold mb-3 text-white">Eventos Exclusivos</h3>
                   <p className="text-white/80 mb-6 flex-grow">Onde aprendemos juntas e sem pressão.</p>
 
-                  <div className="mt-auto">
+                  <div className="">
                     <div className="bg-white/10 rounded-lg p-3 mb-4">
                       <div className="flex items-center gap-2 mb-2">
                         <BookOpen className="h-4 w-4 text-white/80" />
@@ -159,11 +151,6 @@ export default function Community() {
                         Grupos de estudo para diferentes áreas STEM, com foco em apoio mútuo.
                       </p>
                     </div>
-
-                    <Button className="w-full bg-white hover:bg-white/90 text-pink-500 group-hover:shadow-lg transition-all duration-300">
-                      <span>Ver agenda</span>
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </Button>
                   </div>
                 </div>
               </motion.div>
@@ -188,7 +175,7 @@ export default function Community() {
                     Nossos recursos são cuidadosamente selecionados para ajudar no seu desenvolvimento em STEM.
                   </p>
 
-                  <div className="mt-auto">
+                  <div className="">
                     <div className="flex flex-wrap gap-2 mb-4">
                       <span className="bg-white/20 text-white text-xs px-2 py-1 rounded-full">Cursos</span>
                       <span className="bg-white/20 text-white text-xs px-2 py-1 rounded-full">Mentorias</span>
@@ -197,15 +184,28 @@ export default function Community() {
                       <span className="bg-white/20 text-white text-xs px-2 py-1 rounded-full">Workshops</span>
                       <span className="bg-white/20 text-white text-xs px-2 py-1 rounded-full">Materiais</span>
                     </div>
-
-                    <Button className="w-full bg-white hover:bg-white/90 text-purple-500 group-hover:shadow-lg transition-all duration-300">
-                      <span>Acessar recursos</span>
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </Button>
                   </div>
                 </div>
               </motion.div>
             </div>
+
+            {/* Botão centralizado abaixo dos cards */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+              className="text-center mt-12"
+            >
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold px-8 py-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105"
+                onClick={() => window.open("https://discord.gg/ECtMgzF4", "_blank")}
+              >
+                <span>Participar da Comunidade</span>
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </motion.div>
           </div>
 
           {/* Seção Seja Voluntária - Com balão de fala estilo quadrinhos */}
