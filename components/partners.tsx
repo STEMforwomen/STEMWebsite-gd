@@ -194,8 +194,8 @@ export default function Partners() {
                               whileHover={{ scale: 1.1, x: 3 }}
                               whileTap={{ scale: 0.95 }}
                             >
-                              <Linkedin className="h-5 w-5" />
-                              <span className="text-sm">LinkedIn</span>
+                              
+                              
                             </motion.a>
                           </div>
 

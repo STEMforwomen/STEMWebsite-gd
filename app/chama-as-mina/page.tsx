@@ -45,8 +45,8 @@ const editions: Edition[] = [
     description:
       "Nossa primeira edição foi um marco histórico! Com muito carinho e dedicação, reunimos mentoras experientes e alunas motivadas para uma jornada transformadora de aprendizado em tecnologia.",
     stats: {
-      mentoras: 10,
-      alunas: 45,
+      mentoras: 8,
+      alunas: 29,
       horas: 120,
       projetos: 15,
     },
@@ -54,136 +54,309 @@ const editions: Edition[] = [
       // Mentoras
       {
         id: 1,
-        name: "Ana Silva",
+        name: "Thays Lira",
         role: "mentora",
-        area: "Desenvolvimento Web",
-        photo: "/placeholder.svg?height=100&width=100&text=AS",
-        bio: "Senior Frontend Developer com 8 anos de experiência",
+        area: "AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=TL",
+        bio: "Mentora do curso Descomplicando AWS",
         linkedin: "#",
       },
       {
         id: 2,
-        name: "Carla Santos",
+        name: "Ana Carolina",
         role: "mentora",
-        area: "Data Science",
-        photo: "/placeholder.svg?height=100&width=100&text=CS",
-        bio: "Data Scientist especializada em Machine Learning",
+        area: "Soft Skills",
+        photo: "/placeholder.svg?height=100&width=100&text=AC",
+        bio: "Mentora do curso Descomplicando Soft Skills",
         linkedin: "#",
       },
       {
         id: 3,
-        name: "Fernanda Lima",
+        name: "Maria Luiza",
         role: "mentora",
-        area: "UX/UI Design",
-        photo: "/placeholder.svg?height=100&width=100&text=FL",
-        bio: "UX Designer com foco em acessibilidade",
+        area: "Python & Java",
+        photo: "/placeholder.svg?height=100&width=100&text=ML",
+        bio: "Mentora dos cursos Descomplicando Python Base, Descomplicando Java e Spring",
         linkedin: "#",
       },
       {
         id: 4,
-        name: "Juliana Costa",
+        name: "Gisele",
         role: "mentora",
-        area: "Backend Development",
-        photo: "/placeholder.svg?height=100&width=100&text=JC",
-        bio: "Backend Engineer especializada em Node.js",
+        area: "Docker",
+        photo: "/placeholder.svg?height=100&width=100&text=GI",
+        bio: "Mentora do curso Descomplicando Docker",
         linkedin: "#",
       },
       {
         id: 5,
-        name: "Mariana Oliveira",
+        name: "Karol",
         role: "mentora",
-        area: "DevOps",
-        photo: "/placeholder.svg?height=100&width=100&text=MO",
-        bio: "DevOps Engineer com expertise em AWS",
+        area: "Terraform",
+        photo: "/placeholder.svg?height=100&width=100&text=KA",
+        bio: "Mentora do curso Descomplicando Terraform",
         linkedin: "#",
       },
       {
         id: 6,
-        name: "Patricia Rocha",
+        name: "Rebeca",
         role: "mentora",
-        area: "Mobile Development",
-        photo: "/placeholder.svg?height=100&width=100&text=PR",
-        bio: "Mobile Developer especializada em React Native",
+        area: "ECS",
+        photo: "/placeholder.svg?height=100&width=100&text=RE",
+        bio: "Mentora do curso Descomplicando ECS",
         linkedin: "#",
       },
       {
         id: 7,
-        name: "Roberta Alves",
+        name: "Ana Carolyne",
         role: "mentora",
-        area: "Cybersecurity",
-        photo: "/placeholder.svg?height=100&width=100&text=RA",
-        bio: "Security Analyst com certificações internacionais",
+        area: "Linux & GitOps",
+        photo: "/placeholder.svg?height=100&width=100&text=AC",
+        bio: "Mentora dos cursos Descomplicando Linux, Descomplicando o GitOps com ArgoCD no Kubernetes",
         linkedin: "#",
       },
       {
         id: 8,
-        name: "Sabrina Martins",
+        name: "Eneri",
         role: "mentora",
-        area: "Product Management",
-        photo: "/placeholder.svg?height=100&width=100&text=SM",
-        bio: "Product Manager com experiência em startups",
+        area: "Go",
+        photo: "/placeholder.svg?height=100&width=100&text=EN",
+        bio: "Mentora do curso Descomplicando Go",
         linkedin: "#",
       },
-      {
-        id: 9,
-        name: "Tatiana Ferreira",
-        role: "mentora",
-        area: "Quality Assurance",
-        photo: "/placeholder.svg?height=100&width=100&text=TF",
-        bio: "QA Engineer especializada em automação de testes",
-        linkedin: "#",
-      },
-      {
-        id: 10,
-        name: "Vanessa Souza",
-        role: "mentora",
-        area: "AI/ML",
-        photo: "/placeholder.svg?height=100&width=100&text=VS",
-        bio: "AI Researcher com PhD em Machine Learning",
-        linkedin: "#",
-      },
-      // Alunas (algumas de exemplo)
+      // Alunas
       {
         id: 11,
-        name: "Amanda Silva",
+        name: "Abigail Sayury Nakashima",
         role: "aluna",
-        area: "Iniciante em Programação",
+        area: "Java e Spring, Go",
         photo: "/placeholder.svg?height=100&width=100&text=AS",
-        bio: "Estudante de Ciência da Computação",
+        bio: "Participante dos cursos Java e Spring, Go",
       },
       {
         id: 12,
-        name: "Beatriz Costa",
+        name: "Adriana Cristina Ferraresi",
         role: "aluna",
-        area: "Transição de Carreira",
-        photo: "/placeholder.svg?height=100&width=100&text=BC",
-        bio: "Migrando da área de Marketing para Tech",
+        area: "Terraform, AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=AC",
+        bio: "Participante dos cursos Terraform, AWS",
       },
       {
         id: 13,
-        name: "Camila Santos",
+        name: "Aline Maria Frez Ouverney",
         role: "aluna",
-        area: "Desenvolvimento Web",
-        photo: "/placeholder.svg?height=100&width=100&text=CS",
-        bio: "Aprendendo React e Node.js",
+        area: "Soft Skills, Docker",
+        photo: "/placeholder.svg?height=100&width=100&text=AM",
+        bio: "Participante dos cursos Soft Skills, Docker",
       },
       {
         id: 14,
-        name: "Diana Oliveira",
+        name: "Andreia Luiza Ferreira de Mattos",
         role: "aluna",
-        area: "Data Science",
-        photo: "/placeholder.svg?height=100&width=100&text=DO",
-        bio: "Interessada em análise de dados",
+        area: "Docker, AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=AL",
+        bio: "Participante dos cursos Docker, AWS",
       },
       {
         id: 15,
-        name: "Eduarda Lima",
+        name: "Célia Crystina Clarinda Xavier dos Santos",
         role: "aluna",
-        area: "UX Design",
-        photo: "/placeholder.svg?height=100&width=100&text=EL",
-        bio: "Descobrindo o mundo do design",
+        area: "Python, Java e Spring",
+        photo: "/placeholder.svg?height=100&width=100&text=CC",
+        bio: "Participante dos cursos Python, Java e Spring",
       },
-      // ... mais 40 alunas
+      {
+        id: 16,
+        name: "Crisciany Souza",
+        role: "aluna",
+        area: "Docker",
+        photo: "/placeholder.svg?height=100&width=100&text=CS",
+        bio: "Participante do curso Docker",
+      },
+      {
+        id: 17,
+        name: "Dalila Castro",
+        role: "aluna",
+        area: "Python, Go",
+        photo: "/placeholder.svg?height=100&width=100&text=DC",
+        bio: "Participante dos cursos Python, Go",
+      },
+      {
+        id: 18,
+        name: "Daniela Aparecida Ghirotti Lucas",
+        role: "aluna",
+        area: "Python, AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=DA",
+        bio: "Participante dos cursos Python, AWS",
+      },
+      {
+        id: 19,
+        name: "Denise Henrique Mafra",
+        role: "aluna",
+        area: "Linux, AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=DH",
+        bio: "Participante dos cursos Linux, AWS",
+      },
+      {
+        id: 20,
+        name: "Evelyn Ferreira",
+        role: "aluna",
+        area: "Python, Linux",
+        photo: "/placeholder.svg?height=100&width=100&text=EF",
+        bio: "Participante dos cursos Python, Linux",
+      },
+      {
+        id: 21,
+        name: "Ewelin Cristina Mariano Fernandes",
+        role: "aluna",
+        area: "Soft Skills, Python",
+        photo: "/placeholder.svg?height=100&width=100&text=EC",
+        bio: "Participante dos cursos Soft Skills, Python",
+      },
+      {
+        id: 22,
+        name: "Fernanda Nakano Rodrigues da Silva",
+        role: "aluna",
+        area: "Python, Go",
+        photo: "/placeholder.svg?height=100&width=100&text=FN",
+        bio: "Participante dos cursos Python, Go",
+      },
+      {
+        id: 23,
+        name: "Karina Kaori",
+        role: "aluna",
+        area: "GitOps, ECS",
+        photo: "/placeholder.svg?height=100&width=100&text=KK",
+        bio: "Participante dos cursos GitOps, ECS",
+      },
+      {
+        id: 24,
+        name: "Laila Jaiane Mota da Silva",
+        role: "aluna",
+        area: "Python, AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=LJ",
+        bio: "Participante dos cursos Python, AWS",
+      },
+      {
+        id: 25,
+        name: "Lays Almeida Barros da Silva",
+        role: "aluna",
+        area: "Python",
+        photo: "/placeholder.svg?height=100&width=100&text=LA",
+        bio: "Participante do curso Python",
+      },
+      {
+        id: 26,
+        name: "Letícia Monteiro Rocha",
+        role: "aluna",
+        area: "Linux, Java e Spring",
+        photo: "/placeholder.svg?height=100&width=100&text=LM",
+        bio: "Participante dos cursos Linux, Java e Spring",
+      },
+      {
+        id: 27,
+        name: "Maria Luiza Borges Cordeiro Neiva Eulalio",
+        role: "aluna",
+        area: "Python, AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=ML",
+        bio: "Participante dos cursos Python, AWS",
+      },
+      {
+        id: 28,
+        name: "Milena Bezerra de Almeida",
+        role: "aluna",
+        area: "Python",
+        photo: "/placeholder.svg?height=100&width=100&text=MB",
+        bio: "Participante do curso Python",
+      },
+      {
+        id: 29,
+        name: "Paula Rodrigues Magalhães Leite",
+        role: "aluna",
+        area: "Python, Linux",
+        photo: "/placeholder.svg?height=100&width=100&text=PR",
+        bio: "Participante dos cursos Python, Linux",
+      },
+      {
+        id: 30,
+        name: "Rayssa Vilaça",
+        role: "aluna",
+        area: "Terraform, GitOps",
+        photo: "/placeholder.svg?height=100&width=100&text=RV",
+        bio: "Participante dos cursos Terraform, GitOps",
+      },
+      {
+        id: 31,
+        name: "Thais Gonçalves Silva",
+        role: "aluna",
+        area: "Linux, Docker",
+        photo: "/placeholder.svg?height=100&width=100&text=TG",
+        bio: "Participante dos cursos Linux, Docker",
+      },
+      {
+        id: 32,
+        name: "Thatiana Mattos Fagundes",
+        role: "aluna",
+        area: "Terraform, Linux",
+        photo: "/placeholder.svg?height=100&width=100&text=TM",
+        bio: "Participante dos cursos Terraform, Linux",
+      },
+      {
+        id: 33,
+        name: "Winnie Vitoria de Oliveira Wei",
+        role: "aluna",
+        area: "Linux, AWS",
+        photo: "/placeholder.svg?height=100&width=100&text=WV",
+        bio: "Participante dos cursos Linux, AWS",
+      },
+      {
+        id: 34,
+        name: "Yasmim Abrahão Charles Lima",
+        role: "aluna",
+        area: "Docker, ECS",
+        photo: "/placeholder.svg?height=100&width=100&text=YA",
+        bio: "Participante dos cursos Docker, ECS",
+      },
+      {
+        id: 35,
+        name: "Márcia Silva de Castro Ferreira",
+        role: "aluna",
+        area: "Docker, Terraform",
+        photo: "/placeholder.svg?height=100&width=100&text=MS",
+        bio: "Participante dos cursos Docker, Terraform",
+      },
+      {
+        id: 36,
+        name: "Jackeline Schlink Raimnudo",
+        role: "aluna",
+        area: "Python, Soft Skills",
+        photo: "/placeholder.svg?height=100&width=100&text=JS",
+        bio: "Participante dos cursos Python, Soft Skills",
+      },
+      {
+        id: 37,
+        name: "Ellen de Souza Santos Simonini",
+        role: "aluna",
+        area: "Python, Soft Skills",
+        photo: "/placeholder.svg?height=100&width=100&text=ES",
+        bio: "Participante dos cursos Python, Soft Skills",
+      },
+      {
+        id: 38,
+        name: "Silvania Cristiane Barros dos Santos",
+        role: "aluna",
+        area: "Java e Spring, Python",
+        photo: "/placeholder.svg?height=100&width=100&text=SC",
+        bio: "Participante dos cursos Java e Spring, Python",
+      },
+      {
+        id: 39,
+        name: "Jeruza Maria Souza Pereira",
+        role: "aluna",
+        area: "GitOps, Java e Spring",
+        photo: "/placeholder.svg?height=100&width=100&text=JM",
+        bio: "Participante dos cursos GitOps, Java e Spring",
+      },
     ],
     highlights: ["Primeira turma de mentoria em tecnologia", "Networking entre mulheres de diferentes áreas"],
   },
@@ -499,8 +672,8 @@ export default function ChamaAsMina() {
                         esforçaram e cresceram juntas durante esta jornada transformadora.
                       </p>
 
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                        {alunas.slice(0, showAllParticipants ? alunas.length : 8).map((aluna, index) => (
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {alunas.slice(0, showAllParticipants ? alunas.length : 12).map((aluna, index) => (
                           <motion.div
                             key={aluna.id}
                             initial={{ opacity: 0, y: 30 }}
@@ -512,13 +685,20 @@ export default function ChamaAsMina() {
                             <Card className="text-center h-full border-none shadow-lg hover:shadow-xl transition-all duration-300">
                               <CardHeader className="pb-4">
                                 <CardTitle className="text-lg text-gray-800">{aluna.name}</CardTitle>
+                                <CardDescription className="text-purple-600 font-medium">{aluna.area}</CardDescription>
                               </CardHeader>
+                              <CardContent className="pt-0">
+                                <Badge className="bg-purple-100 text-purple-800 hover:bg-purple-200">
+                                  <Star className="w-3 h-3 mr-1" />
+                                  Aluna
+                                </Badge>
+                              </CardContent>
                             </Card>
                           </motion.div>
                         ))}
                       </div>
 
-                      {alunas.length > 8 && (
+                      {alunas.length > 12 && (
                         <div className="text-center mt-8">
                           <Button
                             variant="outline"
@@ -680,11 +860,11 @@ export default function ChamaAsMina() {
                     {/* Stats */}
                     <div className="grid grid-cols-2 gap-4 pt-4">
                       <div className="text-center p-4 bg-gradient-to-br from-pink-50 to-purple-50 rounded-xl">
-                        <div className="text-2xl font-bold text-pink-600 mb-1">10</div>
+                        <div className="text-2xl font-bold text-pink-600 mb-1">8</div>
                         <div className="text-sm text-gray-600">Mentoras Voluntárias</div>
                       </div>
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl">
-                        <div className="text-2xl font-bold text-purple-600 mb-1">45</div>
+                        <div className="text-2xl font-bold text-purple-600 mb-1">29</div>
                         <div className="text-sm text-gray-600">Alunas Participantes</div>
                       </div>
                     </div>
