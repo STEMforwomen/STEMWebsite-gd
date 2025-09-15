@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Award, Users, ExternalLink, Star, Bell, Sparkles, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Award, Users, Star, Bell, Sparkles, Calendar } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
 
@@ -32,11 +31,6 @@ export default function LatestNews() {
         icon: <Sparkles className="w-3 h-3 mr-1" />,
         color: "from-pink-500 to-pink-600",
       },
-      cta: {
-        text: "Ver post no Instagram",
-        icon: <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />,
-        url: "https://instagram.com/stemforwomen",
-      },
       date: "Abril 2025",
       color: "pink",
     },
@@ -53,11 +47,6 @@ export default function LatestNews() {
         icon: <Star className="w-3 h-3 mr-1" />,
         color: "from-purple-500 to-purple-600",
       },
-      cta: {
-        text: "Inscreva-se como aluna",
-        icon: <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />,
-        url: "#inscreva-se",
-      },
       date: "Março 2025",
       color: "purple",
     },
@@ -73,11 +62,6 @@ export default function LatestNews() {
         text: "Em breve",
         icon: <Bell className="w-3 h-3 mr-1" />,
         color: "from-blue-500 to-blue-600",
-      },
-      cta: {
-        text: "Pré-inscrição",
-        icon: <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />,
-        url: "#hackathon",
       },
       date: "Maio 2025",
       color: "blue",
@@ -217,42 +201,12 @@ export default function LatestNews() {
                           <div className="mb-8 flex-grow">
                             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{item.description}</p>
                           </div>
-
-                          <div className="mt-auto">
-                            <Button
-                              className={`bg-${item.color === "pink" ? "pink" : item.color === "purple" ? "purple" : "blue"}-500 hover:bg-${item.color === "pink" ? "pink" : item.color === "purple" ? "purple" : "blue"}-600 text-white rounded-full group flex items-center`}
-                              onClick={() => window.open(item.cta.url, "_blank")}
-                            >
-                              <span>{item.cta.text}</span>
-                              {item.cta.icon}
-                            </Button>
-                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Navigation Buttons */}
-            <div className="flex justify-between absolute top-1/2 left-0 right-0 -translate-y-1/2 px-4">
-              <Button
-                variant="outline"
-                size="icon"
-                className="rounded-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-white dark:border-gray-700 shadow-md hover:bg-white dark:hover:bg-gray-800"
-                onClick={prevSlide}
-              >
-                <ChevronLeft className="h-5 w-5" />
-              </Button>
-              <Button
-                variant="outline"
-                size="icon"
-                className="rounded-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-white dark:border-gray-700 shadow-md hover:bg-white dark:hover:bg-gray-800"
-                onClick={nextSlide}
-              >
-                <ChevronRight className="h-5 w-5" />
-              </Button>
             </div>
 
             {/* Indicators */}
@@ -325,15 +279,6 @@ export default function LatestNews() {
                   </div>
 
                   <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">{item.description}</p>
-
-                  <Button
-                    className={`w-full bg-${item.color === "pink" ? "pink" : item.color === "purple" ? "purple" : "blue"}-500 hover:bg-${item.color === "pink" ? "pink" : item.color === "purple" ? "purple" : "blue"}-600 text-white rounded-full group flex items-center justify-center`}
-                    size="sm"
-                    onClick={() => window.open(item.cta.url, "_blank")}
-                  >
-                    <span>{item.cta.text}</span>
-                    {item.cta.icon}
-                  </Button>
                 </div>
               </motion.div>
             ))}

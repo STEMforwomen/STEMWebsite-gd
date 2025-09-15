@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { Instagram, Linkedin, Twitter, Mail, Moon, Sun } from "lucide-react"
+import { Instagram, Linkedin, Mail, Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 
 export default function Footer() {
@@ -24,7 +24,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-white mr-2">S</span>
               <h3 className="text-xl font-bold text-white">STEM for Women</h3>
             </div>
             <p className="text-white/80 mb-6 max-w-md">
@@ -32,14 +31,17 @@ export default function Footer() {
               um futuro mais diverso e inclusivo.
             </p>
             <div className="flex space-x-4">
-              <Link href="https://instagram.com" className="text-white/80 hover:text-white transition-colors">
+              <Link
+                href="https://www.instagram.com/stemforwomenbr/"
+                className="text-white/80 hover:text-white transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="https://linkedin.com" className="text-white/80 hover:text-white transition-colors">
+              <Link
+                href="https://www.linkedin.com/company/stem-for-womenn/posts/?feedView=all"
+                className="text-white/80 hover:text-white transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
-              </Link>
-              <Link href="https://twitter.com" className="text-white/80 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
               </Link>
             </div>
           </div>
