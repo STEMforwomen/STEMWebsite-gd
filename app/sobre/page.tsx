@@ -7,6 +7,7 @@ import Team from "@/components/team"
 import StarBackground from "@/components/star-background"
 import WaveDivider from "@/components/wave-divider"
 import ValueCard from "@/components/value-card"
+import WorldMap from "@/components/world-map"
 import Image from "next/image"
 
 const timelineEvents = [
@@ -257,6 +258,8 @@ export default function SobrePage() {
           </motion.div>
         </div>
       </section>
+
+      <WorldMap />
 
       <Team />
     </main>
