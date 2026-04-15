@@ -73,7 +73,7 @@ export default function Footer() {
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-white/80 mr-2" />
                 <a href="mailto:contato@stemforwomen.org" className="text-white/80 hover:text-white transition-colors">
-                  contato@stemforwomen.org
+                  stemforwomenn@gmail.com
                 </a>
               </div>
             </div>

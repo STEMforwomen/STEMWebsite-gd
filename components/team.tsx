@@ -75,61 +75,49 @@ const teamMembers: TeamMember[] = [
   {
     id: 1,
     name: "Riany Mello",
-    role: "Fundadora, Coordenadora do Discord & Programação",
-    bio: "Estudante de Programação e Inteligência Artificial, autodidata e vestibulanda de Ciência da Computação/Matemática.",
+    role: "Fundadora, Coordenadora do Discord & Programacao",
+    bio: "Estudante de Programacao e Inteligencia Artificial, autodidata e vestibulanda de Ciencia da Computacao/Matematica.",
     avatar: "/images/riany.png",
     age: 19,
-    social: {
-      twitter: "#",
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 2,
     name: "Giovanna",
     role: "Co-fundadora & Coordenadora de Eventos",
-    bio: "Vestibulanda com foco em Ciência de dados com ênfase em desenvolvimento de aplicativos.",
+    bio: "Vestibulanda com foco em Ciencia de dados com enfase em desenvolvimento de aplicativos.",
     avatar: "/images/giovanna.png",
     age: 18,
-    social: {
-      twitter: "#",
-      linkedin: "#",
-    },
+    social: {},
   },
   {
     id: 5,
     name: "Danniella dos Santos Silva",
-    role: "Membra da equipe de Programação",
-    bio: "20 anos, técnica em eletroeletrônica, atualmente em formação na área de back-end.",
-    avatar: "/images/daniella.png",
+    role: "Membra da equipe de Programacao",
+    bio: "Tecnica em eletroeletronica, atualmente em formacao na area de back-end.",
+    avatar: "/images/daniella-nova.png",
     age: 20,
     social: {
       linkedin: "https://linkedin.com/in/danniella-santos-b95437298",
-      github: "#",
     },
   },
   {
     id: 6,
     name: "Isabella Ouverney",
     role: "Coordenadora de Projetos & R&S",
-    bio: "Técnica em Mecânica e graduanda em Engenharia de Produção e Administração.",
+    bio: "Tecnica em Mecanica e graduanda em Engenharia de Producao e Administracao.",
     avatar: "/images/isabella.png",
     age: 22,
-    social: {
-      linkedin: "#",
-      twitter: "#",
-    },
+    social: {},
   },
   {
     id: 8,
-    name: "Lívia Galhardo de Oliveira Barros",
-    role: "Vice-coordenadora do Discord e da Programação",
-    bio: "17 anos, estudante do Ensino Médio, aspirante à neurociência e autora de artigos.",
-    avatar: "/images/livia.png",
+    name: "Livia Galhardo de Oliveira Barros",
+    role: "Vice-coordenadora do Discord e da Programacao",
+    bio: "Cursando o ultimo ano do Ensino Medio, aspirante a neurociencia, escrevendo artigos.",
+    avatar: "/images/livia-nova.png",
     age: 17,
     social: {
-      github: "#",
       linkedin: "https://www.linkedin.com/in/l%C3%ADvia-galhardo-de-oliveira-barros-603317216/",
     },
   },
@@ -137,253 +125,210 @@ const teamMembers: TeamMember[] = [
     id: 10,
     name: "Laura Passos de Oliveira",
     role: "Membra da equipe de Design",
-    bio: "16 anos, estudante do 2º ano do Ensino Médio com experiência em criação de trabalhos escolares.",
-    avatar: "/images/laura.png",
+    bio: "Criacao de trabalhos escolares, cursando 2 ano do Ensino Medio.",
+    avatar: "/images/laura-passos.png",
     age: 16,
-    social: {
-      instagram: "#",
-      linkedin: "#",
-    },
+    social: {},
   },
   {
     id: 11,
-    name: "Romênia",
-    role: "Coordenadora de Marketing & Mídias Sociais",
-    bio: "+20 anos de mercado de trabalho. Há 5 anos, migrou para área da tecnologia, desenvolvedora frontEnd formada pela reprograma.",
+    name: "Romania",
+    role: "Coordenadora de Marketing & Midias Sociais",
+    bio: "+20 anos de mercado de trabalho. Ha 5 anos, migrou para area da tecnologia, desenvolvedora frontEnd formada pela reprograma.",
     avatar: "/images/romania-nova.png",
     age: 42,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 12,
     name: "Samilly",
     role: "Coordenadora de Oportunidades",
-    bio: "Finalizando a graduação em Engenharia de Software. Atualmente, se dedicando a projetos e a concluir a graduação.",
+    bio: "Finalizando a graduacao em Engenharia de Software. Atualmente, se dedicando a projetos e a concluir a graduacao.",
     avatar: "/placeholder.svg?height=400&width=400&text=SA",
     age: 23,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 13,
     name: "Anna Elisa Viana Brasileiro",
-    role: "Membra da equipe de Programação",
-    bio: "24 anos, formada em Física e Pedagogia. Professora e mestranda em reatores nucleares. Participou de projetos em astronomia, ensino de física e fusão nuclear.",
-    avatar: "/placeholder.svg?height=400&width=400&text=AE",
+    role: "Membra da equipe de Programacao",
+    bio: "Professora e mestranda na area de reatores nucleares. Experiencia em aerodesign, apagador quantico, astronomia, ensino de fisica e sistemas de refrigeracao em reatores de fusao.",
+    avatar: "/images/anna-elisa.png",
     age: 24,
     social: {
       linkedin: "https://www.linkedin.com/in/aevianabr/",
-      github: "#",
     },
   },
   {
     id: 14,
     name: "Deise Ellen Santos de Oliveira",
-    role: "Membra da equipe de Recrutamento & Seleção",
-    bio: "Estudante de administração, com interesse em inovação e finanças.",
-    avatar: "/placeholder.svg?height=400&width=400&text=DE",
-    age: 22,
+    role: "Membra da equipe de R&S",
+    bio: "Estudante de administracao, com interesse em inovacao e financas.",
+    avatar: "/images/deise.png",
+    age: 23,
     social: {
       linkedin: "https://www.linkedin.com/in/deise-oliveira-067aaa200/",
-      github: "#",
     },
   },
   {
     id: 15,
     name: "Giovanna Lima Garcia",
-    role: "Membra da equipe de Recrutamento & Seleção",
-    bio: "Técnica em administração e atualmente cursando Ciência da Computação, com foco em programação em Python e desenvolvimento de aplicações web.",
-    avatar: "/placeholder.svg?height=400&width=400&text=GL",
-    age: 20,
+    role: "Membra da equipe de R&S",
+    bio: "Tecnica em administracao, cursando Ciencia da Computacao, com foco em Python e desenvolvimento web.",
+    avatar: "/images/giovana-lima.png",
+    age: 18,
     social: {
       linkedin: "https://www.linkedin.com/in/giovanna-garcia-356682350",
-      github: "#",
     },
   },
   {
     id: 16,
     name: "Emanuele Bellarosa",
     role: "Membra da equipe de Projetos",
-    bio: "18 anos, cursando Ciência da Computação na UNESP. Sempre gostou de ciências e resolveu se desafiar na área tech. Nas horas vagas, gosta de ler.",
-    avatar: "/placeholder.svg?height=400&width=400&text=EB",
+    bio: "Curso Ciencia da Computacao na UNESP. Sempre gostei de ciencias e resolvi me desafiar com uma graduacao na area tech. Quando nao estou programando, gosto de ler um bom livro.",
+    avatar: "/images/emanuelle.png",
     age: 18,
     social: {
       linkedin: "https://www.linkedin.com/in/emanuele-bellarosa-748098329",
-      github: "#",
     },
   },
   {
     id: 17,
     name: "Julia Caldart Bulla",
     role: "Membra da equipe de Projetos",
-    bio: "19 anos, futura estudante de Ciência da Computação na UCS, secretária e responsável pelo marketing em uma escola. Participou de programas como Aspire Leaders Program, LALA e bootcamp do Santander.",
+    bio: "Recem formada no ensino medio. Estudante de Ciencias da Computacao, apaixonada por lideranca, projetos de inovacao e programas de desenvolvimento.",
     avatar: "/placeholder.svg?height=400&width=400&text=JC",
     age: 19,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 18,
     name: "Fernanda Aparecida de Toledo",
     role: "Membra da equipe de Projetos",
-    bio: "Professora de Ciências e Biologia há 18 anos, formada em TI e com experiência em programação e projetos ágeis. Mãe de três meninas.",
+    bio: "Professora de Ciencias e Biologia, segunda graduacao em TI. Experiencia em programacao e desenvolvimento de projetos ageis.",
     avatar: "/placeholder.svg?height=400&width=400&text=FA",
     age: 40,
     social: {
       linkedin: "https://www.linkedin.com/in/fernanda-aparecida-de-toledo-tecnologia-da-informacao/",
-      github: "#",
     },
   },
   {
     id: 19,
     name: "Laura Camargo da Silva",
     role: "Membra da equipe de T&D",
-    bio: "18 anos, técnica em TI, cursando Análise e Desenvolvimento de Sistemas.",
+    bio: "Tecnica em Tecnologia da Informacao e cursando Analise e Desenvolvimento de Sistemas.",
     avatar: "/placeholder.svg?height=400&width=400&text=LC",
     age: 18,
     social: {
       linkedin: "https://www.linkedin.com/in/lauracammargo/",
-      github: "#",
     },
   },
   {
     id: 20,
     name: "Giovana Arantes Nunes",
     role: "Membra da equipe de Design",
-    bio: "16 anos, designer voluntária em dois projetos e estudante do 2º ano do Ensino Médio.",
-    avatar: "/placeholder.svg?height=400&width=400&text=GA",
+    bio: "Designer voluntaria em dois projetos, estudante do 2 ano do Ensino Medio.",
+    avatar: "/images/giovana-arantes.png",
     age: 16,
     social: {
       linkedin: "https://www.linkedin.com/in/giovana-arantes-447470332",
-      github: "#",
     },
   },
   {
     id: 21,
     name: "Fernanda de Souza Pereira",
     role: "Membra da equipe de Projetos",
-    bio: "21 anos, estudante de Engenharia da Computação e técnica em Informática. Atua nas áreas de Cibersegurança e DevSecOps.",
+    bio: "Estudante de engenharia da computacao e tecnico em informatica. Aprendendo areas como Ciberseguranca e DevSecOps.",
     avatar: "/placeholder.svg?height=400&width=400&text=FS",
     age: 21,
     social: {
       linkedin: "https://www.linkedin.com/in/fernanda-pereira-221207205",
-      github: "#",
     },
   },
   {
     id: 22,
     name: "Fabiola",
-    role: "Membra da equipe do Discord",
-    bio: "Mora nos EUA, onde cursa high school e planeja estudar para ser piloto de voos comerciais. Acredita na importância da representatividade feminina no setor.",
+    role: "Membra da equipe de Discord",
+    bio: "Recem-chegada ao USA para High School e faculdade futura. Interesse em aviacao comercial, especialmente por ser um meio predominantemente masculino.",
     avatar: "/placeholder.svg?height=400&width=400&text=FA",
     age: 17,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 23,
     name: "Jenifer Osik",
     role: "Membra da equipe de Projetos",
-    bio: "Desenvolvedora front-end há cinco anos. Atua com gestão de projetos, design e marketing. Gosta de unir criatividade e tecnologia.",
-    avatar: "/placeholder.svg?height=400&width=400&text=JO",
+    bio: "Desenvolvedora front-end ha cinco anos, tambem atua com gestao de projetos, design e marketing.",
+    avatar: "/images/jenifer.png",
     age: 27,
     social: {
       linkedin: "https://www.linkedin.com/in/jenifer-osik/",
-      github: "#",
     },
   },
   {
     id: 24,
     name: "Amanda da Silva Alves",
     role: "Membra da equipe de Design",
-    bio: "Estudante do técnico em Química no IFRJ.",
-    avatar: "/placeholder.svg?height=400&width=400&text=AS",
+    bio: "Atualmente cursando tecnico em Quimica no IFRJ.",
+    avatar: "/images/amanda-silva-alves.png",
     age: 18,
     social: {
       linkedin: "https://www.linkedin.com/in/amanda-alves-abb0aa344",
-      github: "#",
     },
   },
   {
     id: 25,
     name: "Thayna Souza de Melo",
     role: "Membra da equipe de Projetos",
-    bio: "20 anos, assistente administrativa em empresa de petróleo e cursando Técnico em Desenvolvimento de Sistemas. Interesse em banco de dados.",
+    bio: "Assistente Administrativo Junior e cursando Tecnico em Desenvolvimento de Sistemas. Interesse em tecnologia e bancos de dados.",
     avatar: "/placeholder.svg?height=400&width=400&text=TS",
     age: 20,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 26,
-    name: "Maria Eduarda Ferreira Costa",
+    name: "Mharia Eduarda Ferreira Costa",
     role: "Membra da equipe de Eventos e Parcerias",
-    bio: "15 anos, alagoana, atua com robótica e pesquisa na escola.",
-    avatar: "/placeholder.svg?height=400&width=400&text=ME",
+    bio: "Trabalha com robotica e pesquisa dentro da escola.",
+    avatar: "/images/mharia-eduarda.png",
     age: 15,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 27,
     name: "Lara Cavalcanti",
     role: "Membra da equipe de Eventos e Parcerias",
-    bio: "16 anos, estudante do 3º ano do Ensino Médio, com interesse em engenharia e programação.",
-    avatar: "/placeholder.svg?height=400&width=400&text=LC",
+    bio: "Estudante do terceiro ano do Ensino Medio, interesse em engenharia e programacao.",
+    avatar: "/images/lara-cavalcanti.png",
     age: 16,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 28,
     name: "Patricia Campos Oliveira",
     role: "Membra da equipe de T&D",
-    bio: "32 anos.",
-    avatar: "/placeholder.svg?height=400&width=400&text=PC",
+    bio: "Membra da equipe de Treinamento e Desenvolvimento.",
+    avatar: "/images/patricia-campos.png",
     age: 32,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 29,
     name: "Thays Lira",
-    role: "Membra da equipe de T&D",
-    bio: "33 anos, Zootecnista, atualmente cursando Análise e Desenvolvimento de Sistemas.",
-    avatar: "/placeholder.svg?height=400&width=400&text=TL",
+    role: "Membra da equipe",
+    bio: "Zootecnista, cursando Analise e Desenvolvimento de Sistemas.",
+    avatar: "/images/thays-lira.png",
     age: 33,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 30,
     name: "Ana Ester Brito",
-    role: "Membra da equipe de Mídias e Design",
-    bio: "18 anos, técnica em Química, atua em projetos de pesquisa e extensão voltados à ciência e educação.",
-    avatar: "/placeholder.svg?height=400&width=400&text=AE",
+    role: "Membra da equipe",
+    bio: "Tecnica em quimica, participa ativamente de projetos de pesquisa e extensao voltados a ciencia e a educacao.",
+    avatar: "/images/ana-ester-brito.png",
     age: 18,
-    social: {
-      linkedin: "https://www.linkedin.com/in/anaesterlorena",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 31,
@@ -392,10 +337,7 @@ const teamMembers: TeamMember[] = [
     bio: "Coordenadora da equipe de Treinamento e Desenvolvimento.",
     avatar: "/placeholder.svg?height=400&width=400&text=IA",
     age: 25,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 32,
@@ -404,10 +346,7 @@ const teamMembers: TeamMember[] = [
     bio: "Membra da equipe de Oportunidades do STEM for Women.",
     avatar: "/placeholder.svg?height=400&width=400&text=EN",
     age: 22,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 33,
@@ -416,22 +355,16 @@ const teamMembers: TeamMember[] = [
     bio: "Membra da equipe de Oportunidades do STEM for Women.",
     avatar: "/placeholder.svg?height=400&width=400&text=IN",
     age: 20,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 34,
-    name: "Letícia Pandolfi",
+    name: "Leticia Pandolfi",
     role: "Membra da equipe de Oportunidades",
     bio: "Membra da equipe de Oportunidades do STEM for Women.",
     avatar: "/placeholder.svg?height=400&width=400&text=LP",
     age: 21,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 35,
@@ -440,10 +373,7 @@ const teamMembers: TeamMember[] = [
     bio: "Membra da equipe de Oportunidades do STEM for Women.",
     avatar: "/placeholder.svg?height=400&width=400&text=ML",
     age: 19,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 36,
@@ -452,10 +382,7 @@ const teamMembers: TeamMember[] = [
     bio: "Membra da equipe do Discord do STEM for Women.",
     avatar: "/placeholder.svg?height=400&width=400&text=MV",
     age: 20,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 37,
@@ -464,10 +391,7 @@ const teamMembers: TeamMember[] = [
     bio: "Membra da equipe do Discord do STEM for Women.",
     avatar: "/placeholder.svg?height=400&width=400&text=MA",
     age: 22,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
   {
     id: 38,
@@ -476,10 +400,7 @@ const teamMembers: TeamMember[] = [
     bio: "Membra da equipe do Discord do STEM for Women.",
     avatar: "/placeholder.svg?height=400&width=400&text=BA",
     age: 19,
-    social: {
-      linkedin: "#",
-      github: "#",
-    },
+    social: {},
   },
 ]
 
@@ -721,9 +642,11 @@ export default function Team() {
                   <p className="text-gray-600 mb-4">{member.bio}</p>
                 </CardContent>
                 <CardFooter className="flex justify-center gap-4 pb-6">
-                  {member.social.twitter && (
+                  {member.social.twitter && member.social.twitter !== "#" && (
                     <motion.a
                       href={member.social.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-gray-400 hover:text-pink-500 transition-colors"
                       whileHover={{ scale: 1.2, rotate: 5 }}
                       whileTap={{ scale: 0.9 }}
@@ -731,9 +654,11 @@ export default function Team() {
                       <Twitter className="h-5 w-5" />
                     </motion.a>
                   )}
-                  {member.social.linkedin && (
+                  {member.social.linkedin && member.social.linkedin !== "#" && (
                     <motion.a
                       href={member.social.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-gray-400 hover:text-pink-500 transition-colors"
                       whileHover={{ scale: 1.2, rotate: 5 }}
                       whileTap={{ scale: 0.9 }}
@@ -741,9 +666,11 @@ export default function Team() {
                       <Linkedin className="h-5 w-5" />
                     </motion.a>
                   )}
-                  {member.social.github && (
+                  {member.social.github && member.social.github !== "#" && (
                     <motion.a
                       href={member.social.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-gray-400 hover:text-pink-500 transition-colors"
                       whileHover={{ scale: 1.2, rotate: 5 }}
                       whileTap={{ scale: 0.9 }}
