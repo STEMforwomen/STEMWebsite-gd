@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <body className={`${inter.className} bg-gradient-to-br from-[#b91c77] to-[#3a0f60]`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange forcedTheme="light">
           <Navbar />
           <div className="pt-16 md:pt-20">
             <PageTransition>{children}</PageTransition>
