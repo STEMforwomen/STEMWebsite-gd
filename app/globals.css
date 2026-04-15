@@ -274,28 +274,30 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(var(--muted));
+  background: var(--muted);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(var(--primary));
+  background: var(--primary);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--primary) / 0.8);
+  background: var(--primary);
+  opacity: 0.8;
 }
 
 .dark ::-webkit-scrollbar-track {
-  background: hsl(var(--secondary));
+  background: var(--secondary);
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: hsl(var(--primary));
+  background: var(--primary);
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--primary) / 0.8);
+  background: var(--primary);
+  opacity: 0.8;
 }
 
 @media (prefers-color-scheme: dark) {
