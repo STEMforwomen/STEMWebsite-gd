@@ -200,7 +200,7 @@ export default function Community() {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold px-8 py-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105"
-                onClick={() => window.open("https://discord.gg/ECtMgzF4", "_blank")}
+                onClick={() => window.open("https://discord.gg/Mb4dWJmcyC", "_blank")}
               >
                 <span>Participar da Comunidade</span>
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -340,6 +340,7 @@ export default function Community() {
                       <Button
                         size="lg"
                         className="relative bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-bold rounded-full w-full shadow-lg border-2 border-black"
+                        onClick={() => window.open("https://stem-linktree.vercel.app/processos-seletivos", "_blank")}
                       >
                         <span>Quero ser voluntária!</span>
                         <ExternalLink className="ml-2 h-5 w-5" />
