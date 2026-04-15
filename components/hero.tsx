@@ -100,6 +100,7 @@ export default function Hero() {
                   size="lg"
                   variant="outline"
                   className="border-white text-foreground bg-white hover:bg-white/90 hover:text-foreground rounded-full flex items-center group"
+                  onClick={() => window.open("https://stem-linktree.vercel.app/processos-seletivos", "_blank")}
                 >
                   <motion.div
                     className="mr-2 text-primary"
