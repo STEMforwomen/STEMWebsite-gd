@@ -140,15 +140,6 @@ const teamMembers: TeamMember[] = [
     social: {},
   },
   {
-    id: 12,
-    name: "Samilly",
-    role: "Coordenadora de Oportunidades",
-    bio: "Finalizando a graduacao em Engenharia de Software. Atualmente, se dedicando a projetos e a concluir a graduacao.",
-    avatar: "/placeholder.svg?height=400&width=400&text=SA",
-    age: 23,
-    social: {},
-  },
-  {
     id: 13,
     name: "Anna Elisa Viana Brasileiro",
     role: "Membra da equipe de Programacao",
@@ -452,6 +443,15 @@ const exMembers: TeamMember[] = [
       twitter: "#",
       github: "#",
     },
+  },
+    {
+    id: 12,
+    name: "Samilly",
+    role: "Coordenadora de Oportunidades",
+    bio: "Finalizando a graduacao em Engenharia de Software. Atualmente, se dedicando a projetos e a concluir a graduacao.",
+    avatar: "/placeholder.svg?height=400&width=400&text=SA",
+    age: 23,
+    social: {},
   },
 ]
 

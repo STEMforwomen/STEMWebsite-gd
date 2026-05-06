@@ -35,34 +35,7 @@ const partners = [
     ],
     color: "from-red-500 to-pink-600",
   },
-  {
-    id: 2,
-    name: "Cientista Aprendiz",
-    description:
-      "Estamos colaborando com o Cientista Aprendiz em duas frentes importantes para a educação e inovação em movimento.",
-    longDescription: [
-      "Participação na FECAP – Feira de Ciências, com palestras e minicursos voltados à tecnologia, inovação e representatividade feminina.",
-      "Apoio ao Hackathon do STEM for Women, que será realizado com o suporte do Cientista Aprendiz, promovendo desafios práticos e criativos para meninas de todo o Brasil.",
-      "Essa parceria fortalece nossa presença em eventos científicos e amplia o acesso de meninas a experiências transformadoras na ciência e tecnologia.",
-    ],
-    logo: "/images/cientistaaprendiz.png",
-    instagram: "https://instagram.com/cientistaaprendiz",
-    linkedin: "https://linkedin.com/company/cientista-aprendiz",
-    website: "https://cientistaaprendiz.com",
-    highlights: [
-      {
-        icon: <Calendar className="h-5 w-5" />,
-        title: "Eventos",
-        description: "Participação em feiras de ciências e eventos educacionais",
-      },
-      {
-        icon: <Award className="h-5 w-5" />,
-        title: "Hackathon",
-        description: "Organização conjunta de hackathons para meninas",
-      },
-    ],
-    color: "from-green-500 to-green-600",
-  },
+ 
 ]
 
 export default function Partners() {
@@ -242,10 +215,15 @@ export default function Partners() {
               Estamos sempre abertos a novas parcerias que possam ampliar o impacto do STEM for Women. Entre em contato
               conosco para discutir como podemos colaborar!
             </p>
-            <Button size="lg" className="bg-[#b91c77] hover:bg-[#a01868] text-white">
-              <BookOpen className="mr-2 h-5 w-5" />
-              <span>Seja nosso Parceiro</span>
-            </Button>
+                    <a
+            href="https://forms.gle/ZFdZigQ19deYQPBf7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-[#b91c77] hover:bg-[#a01868] text-white px-6 py-3 rounded-md font-medium transition"
+          >
+            <BookOpen className="h-5 w-5" />
+            Seja nosso Parceiro
+          </a>
           </div>
         </motion.div>
       </div>

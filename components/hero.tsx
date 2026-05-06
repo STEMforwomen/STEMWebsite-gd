@@ -122,7 +122,7 @@ export default function Hero() {
                 <Button
                   size="lg"
                   className="bg-white hover:bg-white/90 text-primary font-medium rounded-full flex items-center gap-2 shadow-md hover:shadow-lg transition-all"
-                  onClick={() => window.open("https://discord.gg/ECtMgzF4", "_blank")}
+                  onClick={() => window.open("https://discord.gg/Mb4dWJmcyC", "_blank")}
                 >
                   <motion.div whileHover={{ rotate: 10 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                     <svg

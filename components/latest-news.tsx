@@ -50,22 +50,22 @@ export default function LatestNews() {
       date: "Março 2025",
       color: "purple",
     },
-    {
-      id: 3,
-      title: "Hackathon STEM",
-      subtitle: "💻 Primeiro Hackathon exclusivo para meninas",
-      description:
-        "Em parceria com o Cientista Aprendiz, realizaremos nosso primeiro hackathon exclusivo para meninas e mulheres interessadas em tecnologia.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZsGThIj2mjkwJJjG0LZ1xf2hMf447o.png",
-      icon: <Calendar className="h-8 w-8 text-blue-500 dark:text-blue-400" />,
-      badge: {
-        text: "Em breve",
-        icon: <Bell className="w-3 h-3 mr-1" />,
-        color: "from-blue-500 to-blue-600",
-      },
-      date: "Maio 2025",
-      color: "blue",
+      {
+    id: 3,
+    title: "Oportunidades Exclusivas",
+    subtitle: "🚀 Cursos, vagas e recursos partilhados na comunidade",
+    description:
+      "Compartilhamos regularmente no servidor oportunidades reais para aprendizagem e crescimento: cursos gratuitos, programas, eventos e iniciativas na área de tecnologia.",
+    image: "/images/oportunidades.jpg",
+      icon: <Award className="h-8 w-8 text-purple-500 dark:text-purple-400" />,
+    badge: {
+      text: "Ativo",
+      icon: <Sparkles className="w-3 h-3 mr-1" />,
+      color: "from-purple-500 to-purple-600",
     },
+    date: "Contínuo",
+    color: "purple",
+  }
   ]
 
   const nextSlide = () => {

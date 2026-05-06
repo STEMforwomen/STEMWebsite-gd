@@ -11,10 +11,10 @@ interface Location {
 }
 
 const locations: Location[] = [
-  { name: "Brasil", x: 40, y: 76 },
-  { name: "Portugal", x: 48, y: 51 },
-  { name: "Estados Unidos", x: 32.5, y: 52 },
-  { name: "Japão", x: 79.5, y: 53 },
+  { name: "Brasil", x: 38, y: 76 },
+  { name: "Portugal", x: 48.2, y: 51 },
+  { name: "Estados Unidos", x: 32, y: 52 },
+  { name: "Japão", x: 79, y: 53 },
   { name: "Angola", x: 53, y: 75 },
 ]
 

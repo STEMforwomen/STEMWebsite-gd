@@ -108,7 +108,7 @@ export default function Community() {
                           />
                         </div>
                       </div>
-                      <span className="text-white/90 text-sm">+500 membros</span>
+                      <span className="text-white/90 text-sm">+600 membros</span>
                     </div>
                   </div>
                 </div>

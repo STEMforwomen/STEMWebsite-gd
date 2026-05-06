@@ -119,7 +119,7 @@ export default function Navbar() {
               />
               <Button
                 className="ml-4 bg-white hover:bg-white/90 text-[#b91c77] font-medium rounded-full flex items-center gap-2 shadow-md hover:shadow-lg transition-all overflow-hidden group"
-                onClick={() => window.open("https://discord.gg/ECtMgzF4", "_blank")}
+                onClick={() => window.open("https://discord.gg/Mb4dWJmcyC", "_blank")}
               >
                 <motion.div
                   animate={{
